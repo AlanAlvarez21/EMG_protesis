@@ -55,7 +55,7 @@ void setup() {
   // drawing commands to make them visible on screen!
   display.display();
   
-   delay(2000);
+   delay(1000);
 
 
 }
@@ -71,7 +71,7 @@ void loop() {
  Serial.print(potValue); Serial.print("\t");
  Serial.print(potValue1); Serial.print("\t");
  Serial.print(potValue2); Serial.print("\t");
- delay(50);
+ delay(250);
 
   sensorEMG();
 
